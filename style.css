@@ -79,6 +79,14 @@ header #header_left a.head_link:hover, #second_section a.head_link:hover {
 	color: #eee;
 }
 
+#last-link:hover {
+	background-color: #141414;
+	color: #eee !important;
+}
+#last-link:hover a {
+	color: #eee !important;
+}
+
 header #header_right img:first-child {
 	position: relative;
 	right: -220px;
@@ -326,6 +334,11 @@ footer .row ul#footer_nav li:last-child a:hover {
 
 	.center_section {
 		padding: 5px 10px;
+	}
+
+	#second_section #second_section_left img {
+		width: 100%;
+		height: 90%;
 	}
 
 	#end_section .row div article div img {
